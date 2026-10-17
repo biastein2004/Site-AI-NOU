@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Paws & Claws Resort – cazare, spa și îngrijire premium pentru animale de companie în Cluj-Napoca, zona Zorilor / Bună Ziua.">
+<title>Paws &amp; Claws Resort – Cluj-Napoca</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231B4D3E'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle'%3E🐾%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <ul class="topbar-list">
+      <li><a href="tel:+40264000000">📞 +40 264 000 000</a></li>
+      <li><a href="mailto:rezervari@pawsclaws.ro">✉️ rezervari@pawsclaws.ro</a></li>
+    </ul>
+    <p class="status" id="status"><span class="dot"></span><span id="status-text">Se verifică programul…</span></p>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#acasa" class="logo">🐾 Paws &amp; Claws Resort</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="meniu" aria-label="Deschide meniul">☰</button>
+    <nav id="meniu" class="nav" aria-label="Navigare principală">
+      <ul class="nav-list">
+        <li><a href="#galerie">Oaspeți</a></li>
+        <li><a href="#echipa">Echipa</a></li>
+        <li><a href="#pachete">Pachete</a></li>
+        <li><a href="#rezervare">Rezervare</a></li>
+        <li><a href="#locatie">Locație</a></li>
+      </ul>
+      <a href="#rezervare" class="btn btn-gold">Rezervare Live</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ===== HERO ===== -->
+  <section id="acasa" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Un hotel de cinci stele pentru cei patru labe</h1>
+        <p>Suite private, spa, îngrijire medicală și cameră live, la două minute de Zorilor. Pleci liniștit, el se simte ca acasă.</p>
+        <div class="hero-actions">
+          <a href="#rezervare" class="btn btn-gold">Verifică disponibilitatea</a>
+          <a href="#pachete" class="btn btn-outline">Vezi pachetele</a>
+        </div>
+        <ul class="badges">
+          <li>⭐ 4,9 / 5 din 480 recenzii</li>
+          <li>📹 Cameră live 24/7</li>
+          <li>🩺 Veterinar de gardă</li>
+          <li>🧼 Sanitizare zilnică</li>
+        </ul>
+      </div>
+      <aside class="hero-visual" aria-hidden="true">
+        <div class="shot s1">🐕</div><div class="shot s2">🐈</div><div class="shot s3">🛁</div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== GALERIE OASPEȚI ===== -->
+  <section id="galerie" class="section">
+    <div class="container">
+      <h2 class="section-title">Oaspeții noștri fericiți</h2>
+      <p class="lead">Instantanee din zilele petrecute la resort.</p>
+      <div class="gallery">
+        <figure class="photo tall c1"><img src="img/oaspete-1.jpg" alt="Joacă în parc, Luna" loading="lazy" onerror="this.remove()"><span>🐕‍🦺</span><figcaption>Joacă în parc, Luna</figcaption></figure>
+        <figure class="photo c2"><img src="img/oaspete-2.jpg" alt="Suite Deluxe, Simba" loading="lazy" onerror="this.remove()"><span>🛏️</span><figcaption>Suite Deluxe, Simba</figcaption></figure>
+        <figure class="photo c3"><img src="img/oaspete-3.jpg" alt="Masaj de relaxare, Mia" loading="lazy" onerror="this.remove()"><span>💆</span><figcaption>Masaj de relaxare, Mia</figcaption></figure>
+        <figure class="photo c4"><img src="img/oaspete-4.jpg" alt="După baie, Coco" loading="lazy" onerror="this.remove()"><span>🐩</span><figcaption>După baie, Coco</figcaption></figure>
+        <figure class="photo tall c5"><img src="img/oaspete-5.jpg" alt="Zona pisicilor, Nala" loading="lazy" onerror="this.remove()"><span>🐈</span><figcaption>Zona pisicilor, Nala</figcaption></figure>
+        <figure class="photo c6"><img src="img/oaspete-6.jpg" alt="Plimbare de seară, Max" loading="lazy" onerror="this.remove()"><span>🦮</span><figcaption>Plimbare de seară, Max</figcaption></figure>
+      </div>
+      <p class="hint">Pune pozele în folderul <code>img/</code>: oaspete-1.jpg … oaspete-6.jpg și persoana-1.jpg … persoana-4.jpg.</p>
+    </div>
+  </section>
+
+  <!-- ===== ECHIPA ===== -->
+  <section id="echipa" class="section section-cream">
+    <div class="container">
+      <h2 class="section-title">Echipa Paws &amp; Claws</h2>
+      <div class="grid grid-4">
+        <article class="member"><div class="portrait"><span>SB</span><img src="img/persoana-1.jpg" alt="Portret Stein Bianca-Maria" loading="lazy" onerror="this.remove()"></div><h3>Stein Bianca-Maria</h3><p class="role">Manager resort</p><p>Calificare: de completat.</p></article>
+        <article class="member"><div class="portrait"><span>MP</span><img src="img/persoana-2.jpg" alt="Portret Mariabela Bradea Pintiuța" loading="lazy" onerror="this.remove()"></div><h3>Mariabela Bradea Pintiuța</h3><p class="role">Groomer</p><p>Calificare: de completat.</p></article>
+        <article class="member"><div class="portrait"><span>MC</span><img src="img/persoana-3.jpg" alt="Portret Medeea Cezara Chiuariu" loading="lazy" onerror="this.remove()"></div><h3>Medeea Cezara Chiuariu</h3><p class="role">Îngrijitor</p><p>Calificare: de completat.</p></article>
+        <article class="member"><div class="portrait"><span>AA</span><img src="img/persoana-4.jpg" alt="Portret Apetrei Andrei" loading="lazy" onerror="this.remove()"></div><h3>Apetrei Andrei</h3><p class="role">Asistent veterinar</p><p>Calificare: de completat.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PACHETE ===== -->
+  <section id="pachete" class="section">
+    <div class="container">
+      <h2 class="section-title">Pachete de servicii</h2>
+      <div class="packages" id="packages"></div>
+    </div>
+  </section>
+
+  <!-- ===== REZERVARE ===== -->
+  <section id="rezervare" class="section section-blue">
+    <div class="container">
+      <h2 class="section-title">Rezervare online</h2>
+      <div class="booking">
+        <form class="booking-form" id="booking-form">
+          <div class="form-group"><label for="pachet">Pachet</label><select id="pachet" required></select></div>
+          <div class="row">
+            <div class="form-group"><label for="specie">Specie</label><select id="specie" required><option>Câine</option><option>Pisică</option><option>Altele</option></select></div>
+            <div class="form-group"><label for="talie">Talie</label><select id="talie" required><option>Mică (sub 10 kg)</option><option>Medie (10–25 kg)</option><option>Mare (peste 25 kg)</option></select></div>
+          </div>
+          <div class="form-group"><label for="data">Data</label><input type="date" id="data" required></div>
+          <div class="form-group"><label for="nume">Nume stăpân</label><input type="text" id="nume" autocomplete="name" required></div>
+          <div class="form-group"><label for="tel">Telefon</label><input type="tel" id="tel" autocomplete="tel" required></div>
+          <button type="submit" class="btn btn-gold">Confirmă rezervarea</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <div class="slots-panel">
+          <h3>Disponibilitate pentru <span id="slots-date">–</span></h3>
+          <ul class="legend"><li><i class="sw free"></i>Liber</li><li><i class="sw busy"></i>Ocupat</li><li><i class="sw sel"></i>Selectat</li></ul>
+          <div class="slots" id="slots" role="group" aria-label="Intervale orare"></div>
+          <div class="bar" aria-hidden="true"><div class="bar-fill" id="bar-fill"></div></div>
+          <p class="bar-label" id="bar-label"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCAȚIE ===== -->
+  <section id="locatie" class="section">
+    <div class="container location">
+      <div class="location-info">
+        <h2>Locație în Cluj-Napoca</h2>
+        <p>Resortul se află în zona Zorilor / Bună Ziua, pe Str. Observatorului 90 (adresă orientativă), într-o zonă liniștită, cu spații verzi în apropiere.</p>
+        <ul class="facts">
+          <li><strong>Acces:</strong> linii urbane spre Zorilor, 5 minute pe jos de stație; 10 minute cu mașina din centru.</li>
+          <li><strong>Parcare:</strong> 12 locuri gratuite pentru clienți, inclusiv locuri pentru Pet Taxi.</li>
+          <li><strong>Program:</strong> Luni–Vineri 08:00–20:00, Sâmbătă 09:00–18:00, Duminică 10:00–16:00. Urgențe 24/7.</li>
+        </ul>
+      </div>
+      <aside class="map" aria-label="Hartă schematică a locației">
+        <svg viewBox="0 0 400 300" role="img" aria-label="Hartă schematică Zorilor / Bună Ziua">
+          <rect width="400" height="300" fill="#EBF8FF"/>
+          <path d="M0 210 L400 150" stroke="#fff" stroke-width="18"/><path d="M150 0 L220 300" stroke="#fff" stroke-width="14"/><path d="M0 80 L400 110" stroke="#fff" stroke-width="10"/>
+          <rect x="260" y="20" width="110" height="70" rx="14" fill="#cfe9d8"/><text x="315" y="60" text-anchor="middle" font-size="12" fill="#1B4D3E">Parc</text>
+          <text x="40" y="190" font-size="12" fill="#2C3E50">Str. Observatorului</text>
+          <text x="40" y="60" font-size="12" fill="#2C3E50">Zorilor</text><text x="270" y="270" font-size="12" fill="#2C3E50">Bună Ziua</text>
+          <circle cx="200" cy="165" r="22" fill="#D4AF37" opacity=".35"/><circle cx="200" cy="165" r="10" fill="#1B4D3E"/>
+          <text x="200" y="205" text-anchor="middle" font-size="13" font-weight="700" fill="#1B4D3E">🐾 Paws &amp; Claws</text>
+        </svg>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><h3>🐾 Paws &amp; Claws Resort</h3><p>Cazare, spa și îngrijire premium pentru animale de companie, în Cluj-Napoca.</p></div>
+    <div><h3>Linkuri rapide</h3><ul><li><a href="#pachete">Pachete</a></li><li><a href="#rezervare">Rezervare</a></li><li><a href="#echipa">Echipa</a></li><li><a href="#locatie">Locație</a></li></ul></div>
+    <div><h3>Newsletter</h3>
+      <form class="newsletter" id="newsletter"><label for="nl" class="sr-only">Email</label><input type="email" id="nl" placeholder="Emailul tău" required><button class="btn btn-gold btn-small" type="submit">Abonează-te</button></form>
+      <p class="form-status light" id="nl-status" role="status"></p></div>
+  </div>
+  <div class="container social-hub">
+    <h3>Urmărește-ne</h3>
+    <ul class="social">
+      <li><a href="#" class="ig">Instagram</a></li><li><a href="#" class="fb">Facebook</a></li><li><a href="#" class="tt">TikTok</a></li><li><a href="#" class="yt">YouTube</a></li>
+    </ul>
+    <div class="feed" aria-label="Previzualizare Instagram"><span>🐕</span><span>🐈</span><span>🛁</span><span>🦴</span><span>🐩</span><span>🐾</span></div>
+  </div>
+  <p class="copyright">&copy; 2026 Paws &amp; Claws Resort. Toate drepturile rezervate.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
